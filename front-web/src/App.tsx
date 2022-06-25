@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header';
 import Filter from './components/filter';
+import SalesByDate from './components/sales-by-date';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <div className="app-container">
         <Filter />
+        <SalesByDate />
       </div>
     </>
   );
