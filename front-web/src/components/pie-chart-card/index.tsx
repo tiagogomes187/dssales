@@ -1,5 +1,5 @@
 import ReactApexChart from 'react-apexcharts';
-import { buildPieChartConfig } from './helpers.ts';
+import { buildPieChartConfig } from './helpers';
 
 import './styles.css';
 
